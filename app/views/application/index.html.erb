@@ -1,0 +1,19 @@
+<div class="container" data-controller="counter">
+  <div class="counter bg-green">
+    <%= @counter %>
+  </div>
+  <div class="buttons bg-blue">
+    <div class="btn" data-action="click->counter#upHttp">
+      Up by HTTP
+    </div>
+    <div class="btn" data-action="click->counter#downHttp">
+      Down by HTTP
+    </div>
+    <div class="btn" data-action="click->counter#upWebsocket">
+      Up by WebSocket
+    </div>
+    <div class="btn" data-action="click->counter#downWebsocket">
+      Down by WebSocket
+    </div>
+  </div>
+</div>

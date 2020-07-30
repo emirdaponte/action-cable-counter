@@ -13,3 +13,84 @@
  *= require_tree .
  *= require_self
  */
+
+.btn {
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Ubuntu', cursive;
+}
+
+.container {
+  width: 20rem;
+  height: 20rem;
+
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.bg-blue {
+  background-color: #5056eed1;
+}
+
+.bg-green {
+  background-color: #60c161
+}
+
+.sunny {
+  display: flex;
+  background-color: #5056eed1;
+  width: 5rem;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  border-radium: 2.5rem;
+}
+
+.btn {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+  background-color: #EEEEEE;
+
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  border-style: solid;
+  border-color: gray;
+  margin: 1rem;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn:active {
+  box-shadow: inset 0px -1px 3px 3px #3b3a4173;
+  top: 3px;
+}
