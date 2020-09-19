@@ -1,24 +1,19 @@
-# README
+Contardor con ActionCable
+=========================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ejemplo de como manejar WebSocket haciendo uso de ActionCable, disponible por defecto en Rails.
+No solo de actualizaciones por WebSocket, también envio de acciones a través de la misma conexión.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+```
+bundle install
+yarn install
+```
 
-* System dependencies
+Require Redis, para el uso de ActionCable.
 
-* Configuration
+Ruby -v 2.7.1
 
-* Database creation
+Rails -v 6.0.3.3
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
