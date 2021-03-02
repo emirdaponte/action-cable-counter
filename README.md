@@ -15,5 +15,5 @@ Require Redis, para el uso de ActionCable.
 
 Ruby -v 2.7.1
 
-Rails -v 6.0.3.3
+Rails -v 6.0.3.5
 
